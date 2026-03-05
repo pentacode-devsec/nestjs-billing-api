@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ext:UBLExtensions><ext:UBLExtension><ext:ExtensionContent><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-1ijeempxct5c0dm1m3"><ds:SignedInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xmldsig-1ijeempxct5c0dm1m3-ref0" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>weHmTYuaozk8N/3Btsu6lr4NqC/JBcCeF0MaVdf3ULw=</ds:DigestValue></ds:Reference><ds:Reference URI="#xmldsig-1ijeempxct5c0dm1m3-signedprops" Type="http://uri.etsi.org/01903#SignedProperties"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>L7X2pBOdwfinyDFpl7ck9esCDvftc7ZKlpoaHK7zSRE=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Ke7dQcVH4bPu929Donu/4eejwBtLY/1MrZBfpAvkG8w8zgb77FyHbJ7XbAEAuXQ1D4+MTaFh0h0fYULvgFW12O0ORnLupdBuSB573Y/baemAJCsozf6iBxVDdvffDdEgOpoEDnoAN5ga3bht1xZxDezIpsz1g0JY9vU25kVRTI9kvEgD+GM5/G4VMvZ/bCjKQh0Mm7bDYPRLxoCI6OfVbJwXjhAa/dAaH8Wh0Mo/GcAFVCCYrRhMY2BNKgqtq/4/0QjQXJDYLstbirdrKzaKo2Rzsqr+U+Vn8PKHCKV0ENmmqvflz8QrdzBfKhRAdofYiqIFkYIlL9hUyqzAHgZX2g==</ds:SignatureValue><ds:KeyInfo Id="xmldsig-1ijeempxct5c0dm1m3-keyinfo"><ds:X509Data><ds:X509Certificate>MIIEEzCCAvugAwIBAgIUYwkGs9fba6CFHOQ8pQJyItC2aYUwDQYJKoZIhvcNAQELBQAwgZgxCzAJBgNVBAYTAkNPMRIwEAYDVQQIDAlBbnRpb3F1aWExETAPBgNVBAcMCE1lZGVsbGluMRYwFAYDVQQKDA1QZW50YWNvZGUgU0FTMRQwEgYDVQQLDAtGYWN0dXJhY2lvbjESMBAGA1UEAwwJOTAwMTIzNDU2MSAwHgYJKoZIhvcNAQkBFhFpbmZvQHBlbnRhY29kZS5jbzAeFw0yNjAzMDUxNzMwMzNaFw0yNzAzMDUxNzMwMzNaMIGYMQswCQYDVQQGEwJDTzESMBAGA1UECAwJQW50aW9xdWlhMREwDwYDVQQHDAhNZWRlbGxpbjEWMBQGA1UECgwNUGVudGFjb2RlIFNBUzEUMBIGA1UECwwLRmFjdHVyYWNpb24xEjAQBgNVBAMMCTkwMDEyMzQ1NjEgMB4GCSqGSIb3DQEJARYRaW5mb0BwZW50YWNvZGUuY28wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC8I7Ags7d1J0+MVEZ/mKEaNmY4Do417rots7NiCruKHoawyklzxAI8xGvNGRohLXz22ANA6nIs+uOfblwZ1VgjQGN7APs9fB9FpXoNLaHjIfpvcdocRcJyosb1UcJ0/ogxbS+ezVNTg889tZ2uQlxoLauDCJvFvRFvIOT5Bwm54FhIMZz8QKefFcdMnXrjZ6fFv97Qd3qAzDviaaLwwjJoV91yPBlohGJZRuVh95feCxKLfdDxmpfkm5pux2e9D0kvcrovihN/nfr7TIsswHvGNCwrVGVK8DEz9sOKg/2uX59dCN6wZ1YIBxaVvfLhDeV9j2OzjfhjAl7tlfFg8VpdAgMBAAGjUzBRMB0GA1UdDgQWBBTeVrGcBeisVrugKSsnMNfUmy2gqTAfBgNVHSMEGDAWgBTeVrGcBeisVrugKSsnMNfUmy2gqTAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBQdw/isk4+u4DYLjrDpu4Jgp40VpKJm3sQB3caqBDxEuE4s2dZUIknENLG4flSjqu3Gi+lBsGmHbPafpsHC/RvOqpGE0cvemW8pYm9ICNy3VFkap2eZsJkEgnZEmx9gI9jRE54CJjQQ1HycNYGBnt2Ys+NzeR/YIuxuZSfWYcd8ZeWxGtN8SVTOqEF05hBD3M+OULugHlcyUOFux7js0y0GqahsY0McGAlqxprZaNkDO6sVACuUQdeApVgsA5LnINdGkW3oYPCJBJ0v+SyiNgvV8Xb/GIMmXatCrjrvTVMaFzOVLGIlupmygmrEvKf5/+u+zG1eX8VH5iEHIg8EtsJ</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#xmldsig-1ijeempxct5c0dm1m3"><xades:SignedProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="xmldsig-1ijeempxct5c0dm1m3-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2026-03-05T21:26:03.308Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue xmlns:ds="http://www.w3.org/2000/09/xmldsig#">TW7jWJ2ExWaOyIFguOpLEvEcl68=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName xmlns:ds="http://www.w3.org/2000/09/xmldsig#">C=CO,ST=Antioquia,L=Medellin,O=Pentacode SAS,OU=Facturacion,CN=900123456,E=info@pentacode.co</ds:X509IssuerName><ds:X509SerialNumber xmlns:ds="http://www.w3.org/2000/09/xmldsig#">630906b3d7db6ba0851ce43ca5027222d0b66985</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></ext:ExtensionContent></ext:UBLExtension></ext:UBLExtensions>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <cbc:UBLVersionID>UBL 2.1</cbc:UBLVersionID>
+  <cbc:CustomizationID>10</cbc:CustomizationID>
+  <cbc:ProfileID>DIAN 2.1</cbc:ProfileID>
+  <cbc:ProfileExecutionID>2</cbc:ProfileExecutionID>
+  <cbc:ID>SETP990000001</cbc:ID>
+  <cbc:UUID schemeID="2" schemeName="CUFE-SHA384">459900e41b419f4fe251fc21152f3eb5aa5f9bc03d8399ca464af240c609939393e8b4b8229bb60ca335b83eedbb4d98</cbc:UUID>
+  <cbc:IssueDate>2025-03-05</cbc:IssueDate>
+  <cbc:IssueTime>10:00:00-05:00</cbc:IssueTime>
+  <cbc:InvoiceTypeCode>01</cbc:InvoiceTypeCode>
+  <cbc:DocumentCurrencyCode>COP</cbc:DocumentCurrencyCode>
+  <cbc:LineCountNumeric>1</cbc:LineCountNumeric>
+  <cac:InvoicePeriod>
+    <cbc:StartDate>2019-01-19</cbc:StartDate>
+    <cbc:EndDate>2030-01-19</cbc:EndDate>
+  </cac:InvoicePeriod>
+  <cac:OrderReference>
+    <cbc:ID>18760000001</cbc:ID>
+    <cbc:IssueDate>2019-01-19</cbc:IssueDate>
+  </cac:OrderReference>
+  <cac:AccountingSupplierParty>
+    <cbc:AdditionalAccountID>1</cbc:AdditionalAccountID>
+    <cac:Party>
+      <cac:PartyName>
+        <cbc:Name>Pentacode</cbc:Name>
+      </cac:PartyName>
+      <cac:PhysicalLocation>
+        <cac:Address>
+          <cbc:ID>05001</cbc:ID>
+          <cbc:CityName>Medellín</cbc:CityName>
+          <cbc:CountrySubentity>Antioquia</cbc:CountrySubentity>
+          <cbc:CountrySubentityCode>05</cbc:CountrySubentityCode>
+          <cac:AddressLine>
+            <cbc:Line>Km 1 Vereda MAzo</cbc:Line>
+          </cac:AddressLine>
+          <cac:Country>
+            <cbc:IdentificationCode>CO</cbc:IdentificationCode>
+            <cbc:Name languageID="es">Colombia</cbc:Name>
+          </cac:Country>
+        </cac:Address>
+      </cac:PhysicalLocation>
+      <cac:PartyTaxScheme>
+        <cbc:RegistrationName>Pentacode</cbc:RegistrationName>
+        <cbc:CompanyID schemeAgencyID="195" schemeAgencyName="CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)" schemeID="7" schemeName="31">1040742570</cbc:CompanyID>
+        <cbc:TaxLevelCode listName="48">48</cbc:TaxLevelCode>
+        <cac:TaxScheme>
+          <cbc:ID>01</cbc:ID>
+          <cbc:Name>IVA</cbc:Name>
+        </cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Pentacode</cbc:RegistrationName>
+        <cbc:CompanyID schemeAgencyID="195" schemeID="7" schemeName="31">1040742570</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:ElectronicMail>info@pentacode.co</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cbc:AdditionalAccountID>1</cbc:AdditionalAccountID>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="13">800197268</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name>Cliente de Prueba SA</cbc:Name>
+      </cac:PartyName>
+      <cac:PhysicalLocation>
+        <cac:Address>
+          <cbc:ID>11001</cbc:ID>
+          <cac:AddressLine>
+            <cbc:Line>Carrera 7 # 32-16</cbc:Line>
+          </cac:AddressLine>
+          <cac:Country>
+            <cbc:IdentificationCode>CO</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:Address>
+      </cac:PhysicalLocation>
+      <cac:PartyTaxScheme>
+        <cbc:RegistrationName>Cliente de Prueba SA</cbc:RegistrationName>
+        <cbc:CompanyID schemeAgencyID="195" schemeID="4" schemeName="13">800197268</cbc:CompanyID>
+        <cbc:TaxLevelCode listName="48">R-99-PN</cbc:TaxLevelCode>
+        <cac:TaxScheme>
+          <cbc:ID>ZZ</cbc:ID>
+          <cbc:Name>No aplica</cbc:Name>
+        </cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:Contact>
+        <cbc:ElectronicMail>cliente@prueba.com</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+  <cac:PaymentMeans>
+    <cbc:ID>10</cbc:ID>
+    <cbc:PaymentMeansCode>10</cbc:PaymentMeansCode>
+    <cbc:PaymentDueDate>2025-03-05</cbc:PaymentDueDate>
+  </cac:PaymentMeans>
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="COP">190000.00</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="COP">1000000.00</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="COP">190000.00</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cbc:Percent>19</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>01</cbc:ID>
+          <cbc:Name>IVA</cbc:Name>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="COP">1000000.00</cbc:LineExtensionAmount>
+    <cbc:TaxExclusiveAmount currencyID="COP">1000000.00</cbc:TaxExclusiveAmount>
+    <cbc:TaxInclusiveAmount currencyID="COP">1190000.00</cbc:TaxInclusiveAmount>
+    <cbc:AllowanceTotalAmount currencyID="COP">0.00</cbc:AllowanceTotalAmount>
+    <cbc:PayableAmount currencyID="COP">1190000.00</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+  <cac:InvoiceLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="EA">1</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="COP">1000000.00</cbc:LineExtensionAmount>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="COP">190000.00</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="COP">1000000.00</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="COP">190000.00</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cbc:Percent>19</cbc:Percent>
+          <cac:TaxScheme>
+            <cbc:ID>01</cbc:ID>
+            <cbc:Name>IVA</cbc:Name>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description>Servicio de desarrollo de software</cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID>PROD-001</cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="COP">1000000.00</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>

@@ -1,0 +1,41 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: runtime
+    image: pentacode/billing-api:latest
+    container_name: billing-api
+    restart: unless-stopped
+    ports:
+      - "${PORT:-3000}:3000"
+    environment:
+      NODE_ENV: production
+      PORT: "3000"
+      DIAN_AMBIENTE: ${DIAN_AMBIENTE:-2}
+      DIAN_SOFTWARE_ID: ${DIAN_SOFTWARE_ID}
+      DIAN_SOFTWARE_PIN: ${DIAN_SOFTWARE_PIN}
+      DIAN_URL: ${DIAN_URL}
+      DIAN_NIT: ${DIAN_NIT}
+      CERT_PATH: /app/certs/${CERT_FILENAME:-certificado.p12}
+      CERT_PASSWORD: ${CERT_PASSWORD}
+    volumes:
+      # Mount the directory containing your .p12 certificate (read-only)
+      - ${CERT_DIR:-./test-data/certs}:/app/certs:ro
+    # Chromium uses /dev/shm for shared memory; 256 MB prevents OOM crashes
+    shm_size: "256mb"
+    security_opt:
+      - no-new-privileges:true
+    read_only: true
+    tmpfs:
+      # Puppeteer creates its user-data-dir and IPC sockets under /tmp
+      - /tmp:mode=1777,size=256m
+    healthcheck:
+      test:
+        - "/nodejs/bin/node"
+        - "-e"
+        - "require('http').get('http://localhost:3000',r=>process.exit(r.statusCode<500?0:1)).on('error',()=>process.exit(1))"
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s

@@ -4,12 +4,13 @@ import { AppService } from './app.service';
 import { InvoicesModule } from './modules/invoices/invoices.module';
 import { ConfigModule } from '@nestjs/config';
 import dianConfig from './config/dian.config';
+import fiscalConfig from './config/fiscal.config';
 
 @Module({
   imports: [
     ConfigModule.forRoot({
       isGlobal: true,
-      load: [dianConfig],
+      load: [dianConfig, fiscalConfig],
     }),
     InvoicesModule,
   ],
